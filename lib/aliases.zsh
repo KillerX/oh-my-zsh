@@ -20,5 +20,13 @@ alias l='ls -la'
 alias ll='ls -l'
 alias sl=ls # often screw this up
 
+alias ls="ls -G"
+alias sl="ls -G"
+alias sls="ls -G"
+alias la="ls -Glah"
+
 alias afind='ack-grep -il'
+
+alias tor-ssh='ssh -o ProxyCommand="nc -X 4 -x localhost:9050 %h %p"';
+
 
